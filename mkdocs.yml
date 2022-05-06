@@ -1,0 +1,44 @@
+site_name: Piggy Bot Documentation
+theme: 
+  name: 'material'
+  logo: 'images/piggy.png'
+  favicon:
+    'images/favicon.ico'
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.follow
+    - toc.integrate
+    # - instant
+    
+  palette:
+    scheme: preference
+    primary: 'Blue'
+    accent: 'Cyan'
+  font:
+    text: 'PT Sans Caption'
+    code: 'Fira Mono'
+    
+repo_name: 'docs-piggy'
+repo_url: 'https://github.com/botlabs-gg/docs-piggy'
+
+extra:
+  social:
+    - icon: 'fontawesome/solid/earth-americas'
+      link: 'https://piggy.gg'
+    - icon: 'fontawesome/brands/github-alt'
+      link: 'https://github.com/botlabs-gg'
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/piggy_discord'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.keys
+  - attr_list
+  - pymdownx.betterem:
+      smart_enable: all
+
+copyright: 'Copyright &copy; 2017 - 2022 Piggy (admin@piggy.gg)'
