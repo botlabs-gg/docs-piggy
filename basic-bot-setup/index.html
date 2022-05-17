@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Basic bot setup - Piggy Bot Documentation</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Piggy Bot Documentation</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../SUMMARY/" class="nav-link">Table of contents</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Basic bot setup</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../faq/" class="nav-link">FAQ</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Piggy Commands <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Configuration</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../Piggy-Commands/configuration/announcement/" class="dropdown-item">Announcement</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/configuration/commands/" class="dropdown-item">Commands</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/configuration/language/" class="dropdown-item">Language</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/configuration/mute-role/" class="dropdown-item">Mute Role</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Gameplay</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../Piggy-Commands/gameplay/adoption/" class="dropdown-item">Adoption</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/gameplay/adventure/" class="dropdown-item">Adventure</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/gameplay/battling/" class="dropdown-item">Battling</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/gameplay/breeding/" class="dropdown-item">Breeding</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/gameplay/farm/" class="dropdown-item">Farm</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/gameplay/mine/" class="dropdown-item">Mine</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/gameplay/raiding/" class="dropdown-item">Raiding</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/gameplay/strategy/" class="dropdown-item">Strategy</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Leveling</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../Piggy-Commands/leveling/announcement-configuration/" class="dropdown-item">Announcement Configuration</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/leveling/auto-roles/" class="dropdown-item">Auto Roles</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/leveling/import-leveling/" class="dropdown-item">Import Leveling</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/leveling/leveling-options/" class="dropdown-item">Allow/Ignore Leveling</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/leveling/messaging/" class="dropdown-item">Messaging</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Commands/leveling/sticky-levels/" class="dropdown-item">Sticky Levels</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Piggy Infinity <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Piggy-Infinity/" class="dropdown-item">About Piggy</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Piggy Farm</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../Piggy-Infinity/Piggy-Farm/breed-piggies/" class="dropdown-item">How to breed Piggies?</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Infinity/Piggy-Farm/piggy-farm/" class="dropdown-item">How to build your Piggy Farm?</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Infinity/Piggy-Farm/trade-piggies/" class="dropdown-item">How to Buy and Sell Piggies from the marketplace?</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Clans</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../Piggy-Infinity/clans/gunslinger/" class="dropdown-item">Gunslinger</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Infinity/clans/magician/" class="dropdown-item">Magician</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Infinity/clans/manga/" class="dropdown-item">Manga</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Infinity/clans/musician/" class="dropdown-item">Musician</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Infinity/clans/strategist/" class="dropdown-item">Strategist</a>
+</li>
+            
+<li>
+    <a href="../Piggy-Infinity/clans/warriors/" class="dropdown-item">Warriors</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Miscellaneous <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../miscellaneous/details/" class="dropdown-item">Details</a>
+</li>
+                                    
+<li>
+    <a href="../miscellaneous/fun/" class="dropdown-item">Fun</a>
+</li>
+                                    
+<li>
+    <a href="../miscellaneous/leaderboard/" class="dropdown-item">Leaderboard</a>
+</li>
+                                    
+<li>
+    <a href="../miscellaneous/play-and-earn/" class="dropdown-item">Play and Earn</a>
+</li>
+                                    
+<li>
+    <a href="../miscellaneous/trivia/" class="dropdown-item">Trivia</a>
+</li>
+                                    
+<li>
+    <a href="../miscellaneous/voting/" class="dropdown-item">Voting</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../SUMMARY/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../faq/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/botlabs-gg/docs-piggy/edit/master/docs/basic-bot-setup.md" class="nav-link">Edit on docs-piggy</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#basic-bot-setup" class="nav-link">Basic bot setup</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="basic-bot-setup">Basic bot setup</h1>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This is much easier done on the website at <a href="https://piggy.gg">https://piggy.gg</a></p>
+</div>
+<p>This guide will cover everything you need to do to get started with everything carlbot offers.</p>
+<h3 id="1-setting-up-the-prefix">1. Setting up the prefix</h3>
+<p>I want the bot to respond when I use the prefix <code>-</code> to do that, I can type <code>!prefix set -</code>. Carlbot offers up to 15 prefixes at once, so I could also add a second prefix by typing <code>!prefix add .</code></p>
+<h3 id="2-setting-up-all-the-channels">2. Setting up all the channels</h3>
+<p><code>!log channel &lt;#channel&gt;</code> Sets the channel where carlbot will log things such as message deletions, name changes, role updates. More on that later.</p>
+<p><code>!set welcome &lt;#channel&gt;</code> Decides where join/leave/ban messages go, more on that later.</p>
+<h3 id="3-setting-up-reaction-roles">3. Setting up reaction roles</h3>
+<p>Reaction roles work best in their own channels, so carlbot offers a command to create a channel specifically for reaction roles with some permissions that most people will find useful. We can create this channel by typing <code>!rr channel</code></p>
+<p>It's recommended that you use <code>!rr make</code> for this if you are new.</p>
+<p><img alt="Me setting up reaction roles in my support server." src="./images/reaction_role_setup.png" /></p>
+<h3 id="4-setting-up-modlogs">4. Setting up modlogs</h3>
+<p>Since we're doing this from a clean slate, I will use <code>!modlogs create</code> to create a channel with the appropriate permissions. If we already had a channel where moderation actions were sent, we could have used <code>!modlogs set &lt;#channel&gt;</code></p>
+<h3 id="5-setting-up-starboard">5. Setting up starboard</h3>
+<p><code>!starboard</code> will create the starboard</p>
+<p><code>!star limit &lt;count&gt;</code> will change the required number of stars for a post to show up in the starboard.</p>
+<h3 id="6-configuring-logs">6. Configuring logs</h3>
+<p>By default, the log will log everything every member does in every channel, this isn't always what we want.</p>
+<p>Let's say we don't care about message edits, the way we stop those from showing up in the log is by typing <code>!log edit</code>. The <code>!log</code> command takes an event as its argument and tries to figure out what you want toggled. Another thing we can do is ignore messages deleted in certain channels. Maybe we don't care about messages deleted in mod channels. <code>!log ignore #illuminati</code> is how we'd ignore events from the channel #illuminati. Read the full page for more info, it's <em>very</em> customizable.</p>
+<h3 id="7-setting-up-a-mute-role">7. Setting up a mute role</h3>
+<p>By typing <code>!muterole create</code> we can create a role with the permission "send messages" denied in every channel. Please note that any future channels created will not be covered by the bot. Users can now mute with the <code>!mute &lt;@member&gt; [time] [reason]</code> command</p>
+<h3 id="8-adding-twitch-streamers">8. Adding twitch streamers</h3>
+<p>No point setting up a twitch channel if you don't have any streamers to track. I enjoy watching b0aty, so I'll add him by typing <code>!twitch b0aty</code>. Now any time b0aty comes online I will be notified.</p>
+<h3 id="9-setting-up-join-messages">9. Setting up join messages</h3>
+<p>First we will set the message sent to the previously set channel with:<br><code>!welcome Hello there {user}, glad to have you in the tutorial server</code><br>We can also set a different message to be sent directly to the member upon joining by typing:<br><code>!joindm Hello and welcome to the tutorial server, please read #rules and respect the other members</code></p>
+<p>This is far from everything carlbot has to offer, but at this point you will have set up most of the things that you can set up.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2017 - 2022 Piggy (admin@piggy.gg)</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
