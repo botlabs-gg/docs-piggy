@@ -9,7 +9,7 @@ theme:
     - navigation.top
     - toc.follow
     - toc.integrate
-    # - instant
+    - instant
     
   palette:
     scheme: preference
