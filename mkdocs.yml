@@ -2,8 +2,7 @@ site_name: Piggy Bot Documentation
 theme: 
   name: 'material'
   logo: 'images/piggy.png'
-  favicon:
-    'images/favicon.ico'
+  favicon: 'images/piggy.png'
   features:
     - navigation.tabs
     - navigation.top
