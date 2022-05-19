@@ -2,7 +2,6 @@
 
 * [Home](index.md)
 * [FAQ](faq.md)
-* [Basic bot setup](basic-bot-setup.md)
 
 ## Piggy Commands
 
@@ -13,48 +12,44 @@
 * [Language](Piggy-Commands/configuration/language.md)
 * [Mute Roles](Piggy-Commands/configuration/mute-role.md)
 
-### Gameplay
+### RPG
 
-* [Adoption](Piggy-Commands/gameplay/adoption.md)
-* [Adventure](Piggy-Commands/gameplay/adventure.md)
-* [Battling](Piggy-Commands/gameplay/battling.md)
-* [Breeding](Piggy-Commands/gameplay/breeding.md)
-* [Farm](Piggy-Commands/gameplay/farm.md)
-* [Mine](Piggy-Commands/gameplay/mine.md)
-* [Raiding](Piggy-Commands/gameplay/raiding.md)
-* [Strategy](Piggy-Commands/gameplay/strategy.md)
+* [Adopt](Piggy-Commands/RPG/adoption.md)
+* [Adventure](Piggy-Commands/RPG/adventure.md)
+* [Battle](Piggy-Commands/RPG/battling.md)
+* [Breeding](Piggy-Commands/RPG/breeding.md)
+* [Farm](Piggy-Commands/RPG/farm.md)
+* [Mine](Piggy-Commands/RPG/mine.md)
+* [Raiding](Piggy-Commands/RPG/raiding.md)
+* [Strategy](Piggy-Commands/RPG/strategy.md)
+* [Marketplace](Piggy-Commands/RPG/marketplace.md)
 
 ### Leveling
 
 * [Announcement Configuration](Piggy-Commands/leveling/announcement-configuration.md)
 * [Auto Roles](Piggy-Commands/leveling/auto-roles.md)
 * [Import Leveling](Piggy-Commands/leveling/import-leveling.md)
-* [Levling Pptions](Piggy-Commands/leveling/levling-options.md)
+* [Allow/Ignore Leveling](Piggy-Commands/leveling/leveling-options.md)
 * [Messaging](Piggy-Commands/leveling/messaging.md)
 * [Sticky Levels](Piggy-Commands/leveling/sticky-levels.md)
 
 ## Piggy Infinity
 
 - [About Piggy](Piggy-Infinity/index.md)
+- [Clans](Piggy-Infinity/clans.md)
 
 ### Piggy Farm
-* [How to breed Piggies?](Piggy-Infinity/Piggy-Farm/breed-piggies.md)
-* [How to build your Piggy Farm?](Piggy-Infinity/Piggy-Farm/piggy-farm.md)
-* [How to Buy and Sell Piggies from the Marketplace?](Piggy-Infinity/Piggy-Farm/trade-piggies.md)
-
-### Clans
-* [Gunslinger](Piggy-Infinity/clans/gunslinger.md)
-* [Magician](Piggy-Infinity/clans/magician.md)
-* [Manga](Piggy-Infinity/clans/manga.md)
-* [Musician](Piggy-Infinity/clans/musician.md)
-* [Strategist](Piggy-Infinity/clans/strategist.md)
-* [Warriors](Piggy-Infinity/clans/warriors.md)
+* [Build Your Piggy Farm](Piggy-Infinity/Piggy-Farm/build-piggy-farm.md)
+* [Breed Piggies](Piggy-Infinity/Piggy-Farm/how-to-breed-piggies.md)
+* [Buy & Sell Piggies in Marketplace](Piggy-Infinity/Piggy-Farm/trade-piggies.md)
 
 ## Miscellaneous
 
+* [Chests](miscellaneous/chests.md)
 * [Details](miscellaneous/details.md)
-* [Fun](miscellaneous/fun.md)
+* [Daily Checklist](miscellaneous/daily-checklist.md)
+* [Trivia](miscellaneous/trivia.md)
 * [Leaderboard](miscellaneous/leaderboard.md)
-* [Play and Earn](miscellaneous/play-and-earn.md)
+* [Emoji](miscellaneous/emoji.md)
 * [Trivia](miscellaneous/trivia.md)
 * [Voting](miscellaneous/voting.md)
