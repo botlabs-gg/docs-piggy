@@ -1,7 +1,14 @@
 # Table of contents
 
 * [Home](index.md)
-* [FAQ](faq.md)
+
+## FAQ
+
+* [General](FAQ/general.md)
+* [Game](FAQ/game.md)
+* [Community](FAQ/community.md)
+* [Currency](FAQ/currency.md)
+* [Level](FAQ/level.md)
 
 ## Piggy Commands
 
@@ -33,23 +40,23 @@
 * [Messaging](Piggy-Commands/leveling/messaging.md)
 * [Sticky Levels](Piggy-Commands/leveling/sticky-levels.md)
 
+### Miscellaneous
+
+* [Chests](Piggy-Commands/miscellaneous/chests.md)
+* [Details](Piggy-Commands/miscellaneous/details.md)
+* [Daily Checklist](Piggy-Commands/miscellaneous/daily-checklist.md)
+* [Trivia](Piggy-Commands/miscellaneous/trivia.md)
+* [Leaderboard](Piggy-Commands/miscellaneous/leaderboard.md)
+* [Emoji](Piggy-Commands/miscellaneous/emoji.md)
+* [Trivia](Piggy-Commands/miscellaneous/trivia.md)
+* [Voting](Piggy-Commands/miscellaneous/voting.md)
+
 ## Piggy Infinity
 
-- [About Piggy](Piggy-Infinity/index.md)
-- [Clans](Piggy-Infinity/clans.md)
+* [About Piggy](Piggy-Infinity/index.md)
+* [Clans](Piggy-Infinity/clans.md)
 
 ### Piggy Farm
 * [Build Your Piggy Farm](Piggy-Infinity/Piggy-Farm/build-piggy-farm.md)
 * [Breed Piggies](Piggy-Infinity/Piggy-Farm/how-to-breed-piggies.md)
 * [Buy & Sell Piggies in Marketplace](Piggy-Infinity/Piggy-Farm/trade-piggies.md)
-
-## Miscellaneous
-
-* [Chests](miscellaneous/chests.md)
-* [Details](miscellaneous/details.md)
-* [Daily Checklist](miscellaneous/daily-checklist.md)
-* [Trivia](miscellaneous/trivia.md)
-* [Leaderboard](miscellaneous/leaderboard.md)
-* [Emoji](miscellaneous/emoji.md)
-* [Trivia](miscellaneous/trivia.md)
-* [Voting](miscellaneous/voting.md)

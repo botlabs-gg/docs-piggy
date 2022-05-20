@@ -29,6 +29,12 @@ extra:
       link: 'https://github.com/botlabs-gg'
     - icon: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/piggy_discord'
+    - icon: 'fontawesome/brands/instagram'
+      link: 'https://www.instagram.com/piggy.discord'
+    - icon: 'fontawesome/brands/youtube'
+      link: 'https://www.youtube.com/c/PiggyBot'
+    - icon: 'fontawesome/brands/facebook'
+      link: 'https://www.facebook.com/piggydiscord'
 
 markdown_extensions:
   - admonition
