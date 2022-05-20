@@ -36,6 +36,8 @@ extra:
     - icon: 'fontawesome/brands/facebook'
       link: 'https://www.facebook.com/piggydiscord'
 
+edit_uri: ""
+
 markdown_extensions:
   - admonition
   - pymdownx.details
