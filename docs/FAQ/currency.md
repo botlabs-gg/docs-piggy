@@ -8,7 +8,9 @@ Gold Coin is the premium currency for Piggy which is used various purposes and c
 
 ### What are the exchange rate for gold to cryptocurrency silver and essence
 1000 gold coins = 1$ of crypto currency minimum amount is 10k gold coin max amount is 20k gold coin
+
 1 gold coin = 100 silver coin minimum 1 gold coin max 100 gold coin
+
 1 gold coin = 10 essense minimum 1 gold coin max 100 gold coin
 
 ### How do I check piggy balance, and stats?
