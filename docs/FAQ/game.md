@@ -9,7 +9,7 @@ You can see them via __`/help`__ or on [Piggy Commands](https://piggy.gg/command
 Turn on Battle Shield from [Battle Strategy](https://piggy.gg/my-piggy/battle-strategy) or by using __`:-strategy PiggyID`__ shield on which gives you a shield for 12 hours during which no one can battle and you cannot battle either without disabling the shield. Shields costs 30 coins. You can use __`:-strat`__ to see more details about strategy.
 
 ### How can I get stronger and win more battles?
-You can do trivia, battle, breed and buy buffs with your coins to make piggies stronger.
+You can do battle, breed and buy buffs with your coins to make piggies stronger.
 
 ### How do I make a suggestion?
 You can make a suggestion in [#「👍」feedback channel](https://discord.com/channels/744906533657378948/744907715460989028) by typing __`!suggest "your suggestion here"`__, it'll then be available for upvote or downvote in [#「📨」suggestions channel](https://discord.com/channels/744906533657378948/747419848216150096).
