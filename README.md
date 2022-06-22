@@ -1,9 +1,10 @@
 # Piggy Docs
 
 ## Installation:
+For running this repo, Python version 3.9.12 needs to be preinstalled in the machine. 
 
 ```bash
-$pip install -r requirement.txt
+$pip install -r requirement.txt # or pip3 install -r requirement.txt # or python3 -m pip install -r requirement.txt
 ```
 
 ## To Run in localhost:
