@@ -20,3 +20,5 @@ $mkdocs gh-deploy
 ```
  
 The main structure is in `docs` folder, all the markdown files are present there
+
+Link for the MKDocs Material Theme documentation - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/

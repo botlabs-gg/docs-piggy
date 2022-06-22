@@ -6,6 +6,13 @@ Turn on Battle Shield from [Battle Strategy](https://piggy.gg/my-piggy/battle-st
 ### What is bitcoins, gold, and silver?
 Gold Coin is the premium currency for Piggy which is used various purposes and can be exchanged for other crypto currencies like Bitcoin, Ethereum etc. Silver is the currency for piggy that is used for purchasing buffs.
 
+### What are the exchange rate for gold to cryptocurrency silver and essence
+1000 gold coins = 1$ of crypto currency minimum amount is 10k gold coin max amount is 20k gold coin
+
+1 gold coin = 100 silver coin minimum 1 gold coin max 100 gold coin
+
+1 gold coin = 10 essense minimum 1 gold coin max 100 gold coin
+
 ### How do I check piggy balance, and stats?
 Use the __`/snort`__ command.
 
