@@ -6,8 +6,8 @@ Yes, you can! Piggy is a levelling system first, along with an RPG game as an ad
 ### Why isn't the leaderboard showing my latest level or rank ?
 Leaderboard refreshes once every 30 minutes for the server, check it again after sometime.
 
-### How do I get XP in a server?
-You can battle, you can play trivia, and you can contribute to the server by talking to other people as per the rules set by the mods and admins of a server.
+### How do I get User XP in a server?
+You can play trivia and you can contribute to the server by talking to other people as per the rules set by the mods and admins of a server.
 
 ### How do I customise the rank card?
 For your personal rank-card, go the [Customization](https://piggy.gg/my-piggy/customization) section.
