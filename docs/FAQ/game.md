@@ -96,7 +96,7 @@ Your piggy may be matched against a piggy within +-1 level for server battles in
 
 ### What is :-b sr? How is it different from using :-b
 Use __`:-b sr`__ for a Server Battle.
-A Server Battle restricts the battle to users on your current server and piggies within +-1 level. A user may do (200) Server Battles in a 24 hour period. Use :-b for a global battle against users from anywhere. These battles may match piggies with a wider range of levels. A user may do (1000) battles per 24h period.
+A Server Battle restricts the battle to users on your current server and piggies within +-1 level. A user may do (75) Server Battles in a 24 hour period. Use :-b for a global battle against users from anywhere. These battles may match piggies with a wider range of levels. Check `/battle status` to see how much battles you've done.
 
 ### My "Battle Piggy" is set, and its status is 'NIL'. Why is another piggy selected for battle?
 Your "Battle Piggy" may have an active shield. Use __`:-strat PIGGYID shield on`__ to check.
