@@ -5,10 +5,7 @@
 ## FAQ
 
 * [General](FAQ/general.md)
-* [Game](FAQ/game.md)
-* [Community](FAQ/community.md)
-* [Currency](FAQ/currency.md)
-* [Level](FAQ/level.md)
+* [RPG](FAQ/rpg.md)
 
 ## Piggy Commands
 
