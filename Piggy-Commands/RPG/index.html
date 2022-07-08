@@ -13,7 +13,7 @@
     
     
       
-        <title>RPG - Piggy Bot Documentation</title>
+        <title>Basic - Piggy Bot Documentation</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rpg" class="md-skip">
+        <a href="#basic" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              RPG
+              Basic
             
           </span>
         </div>
@@ -197,7 +197,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../FAQ/community/" class="md-tabs__link">
+      <a href="../../FAQ/general/" class="md-tabs__link">
         FAQ
       </a>
     </li>
@@ -354,48 +354,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../FAQ/community/" class="md-nav__link">
-        Community
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../FAQ/currency/" class="md-nav__link">
-        Currency
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../FAQ/game/" class="md-nav__link">
-        Game
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../FAQ/general/" class="md-nav__link">
         General
       </a>
@@ -410,8 +368,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../FAQ/level/" class="md-nav__link">
-        Level
+      <a href="../../FAQ/rpg/" class="md-nav__link">
+        RPG
       </a>
     </li>
   
@@ -497,9 +455,61 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Basic
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-        RPG
+        Basic
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tutorial" class="md-nav__link">
+    tutorial
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guide" class="md-nav__link">
+    guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#halt" class="md-nav__link">
+    halt
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gift" class="md-nav__link">
+    gift
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1147,20 +1157,61 @@
                 
 
 
-<h1 id="rpg">RPG</h1>
-<p>These are the basic gameplay commands for Piggy.</p>
-<p><strong><code>/tutorial play</code></strong></p>
-<p>Start the tutorial to understand the usage of Piggy</p>
-<p><strong><code>/tutorial pause</code></strong></p>
-<p>Pause the ongoing tutorial, enabling usage of all commands</p>
-<p><strong><code>/tutorial reset</code></strong></p>
-<p>Reset the tutorial and lose all progress</p>
-<p><strong><code>/guide</code></strong></p>
-<p>Use guide to know more about piggy</p>
-<p><strong><code>/halt</code></strong></p>
-<p>Halts all your piggies for a minimum of 3 days</p>
-<p><strong><code>/gift</code></strong></p>
-<p>Gift Essence or Silver Coins to a specific user</p>
+<h1 id="basic">Basic</h1>
+<p>These are the basic commands for the Piggy RPG. </p>
+<h2 id="tutorial">tutorial</h2>
+<p>To get used to the commands you can do a simple tutorial integrated wihtin the bot. You can skip/pause/reset the tutorial using the respective buttons or commands. Each player will receive 10 <abbr title="Silver Coins">SC</abbr> for every step while completing this tutorial for the first time.</p>
+<dl>
+<dt><code><b>/tutorial play</b></code>
+<dd>Start the tutorial to understand the usage of Piggy.
+<dt><code><b>/tutorial pause</b></code>
+<dd>Pause the ongoing tutorial, enabling usage of all commands.
+<dt><code><b>/tutorial reset</b></code>
+<dd>Reset the tutorial and lose all progress.
+</dl>
+
+<h2 id="guide">guide</h2>
+<p>This command shows guides to various areas of the Piggy RPG experience.</p>
+<dl>
+<dt><code><b>/guide <i>[command]</i></b></code>
+<dd>Access the general usage guide for Piggy RPG. You can also provide one of the following options with the command to get a more specific guide:
+<ul style="list-style-type: none;">
+<li><code>command</code><br>Clan
+<li>Strategy
+<li>Adopt
+<li>Adventure
+<li>Breed
+<li>Marketplace
+<li>Game-mode
+<li>Shield
+</ul>
+</dl>
+
+<h2 id="halt">halt</h2>
+<p>This command is used to stop your Piggies from being able to do anything, making them come to a halt. This will halt your Piggies for a minimum of 3 days.</p>
+<dl>
+<dt><code><b>/halt <i>[options]</i></b></code>
+<dd>You can start/stop/force stop the halt using the following options with the command:
+<ul style="list-style-type: none;">
+<li><code>options</code><br>on
+<li>off
+<li>force-off
+</ul>
+</dl>
+
+<h2 id="gift">gift</h2>
+<p>Use this command to gift a supported currency another user.</p>
+<dl>
+<dt><code><b>/gift <i>[user-identifier] [item] [quantity]</i></b></code>
+<dd>Gift Essence or Silver Coins to a specific user. You are given 3 options with this command as follows:
+<ul style="list-style-type: none;">
+<li><code>user-identifier</code><br>
+Input the receiver's username or Discord ID in this field.
+<li><code>item</code><br>
+Select the item you want to gift from either Essence or Silver Coins.
+<li><code>quanity</code><br>
+Input the amount of the specified item that you want to gift.
+</dl>
 
               
             </article>
@@ -1179,7 +1230,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../../FAQ/level/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Level" rel="prev">
+        <a href="../../FAQ/rpg/" class="md-footer__link md-footer__link--prev" aria-label="Previous: RPG" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1188,7 +1239,7 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Level
+              RPG
             </div>
           </div>
         </a>
