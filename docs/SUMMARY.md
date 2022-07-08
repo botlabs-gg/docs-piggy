@@ -18,6 +18,7 @@
 
 ### RPG
 
+* [Basic](Piggy-Commands/RPG/index.md)
 * [Adopt](Piggy-Commands/RPG/adoption.md)
 * [Adventure](Piggy-Commands/RPG/adventure.md)
 * [Battle](Piggy-Commands/RPG/battling.md)
