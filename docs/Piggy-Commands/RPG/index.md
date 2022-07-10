@@ -53,4 +53,5 @@ Input the receiver's username or Discord ID in this field.
 Select the item you want to gift from either Essence or Silver Coins.
 <li><code>quanity</code><br>
 Input the amount of the specified item that you want to gift.
+</ul>
 </dl>
