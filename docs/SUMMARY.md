@@ -58,3 +58,6 @@
 * [Build Your Piggy Farm](Piggy-Infinity/Piggy-Farm/build-piggy-farm.md)
 * [Breed Piggies](Piggy-Infinity/Piggy-Farm/how-to-breed-piggies.md)
 * [Buy & Sell Piggies in Marketplace](Piggy-Infinity/Piggy-Farm/trade-piggies.md)
+
+## Release Notes
+* [Release Notes](Release-Notes/index.md)
