@@ -15,9 +15,9 @@ You can name or rename any Piggy in your Farm using this command. Naming your Pi
 <dt><code><b>/name <i>[piggy-id] [piggy-name]</i></b></code>
 <dd>Use the name command to rename your Piggy. You are given 2 options with this command as follows:
 <ul style="list-style-type: none;">
-<li><code>piggy-id</code><br>
-Enter the Piggy ID of the Piggy you want to rename. The Piggy ID are the digits after the <b>#</b> in your Piggy's name. You can check this using <code>/farm</code> or on your Dashboard.
-<li><code>piggy-name</code><br>
+<li><code>piggy-id</code><font style="color:#FF0000">*</font><br>
+Enter the Piggy ID of the Piggy you want to rename. The Piggy ID are the digits after the <b>#</b> in your Piggy's name.
+<li><code>piggy-name</code><font style="color:#FF0000">*</font><br>
 Enter the name you want to give your Piggy.
 </ul>
 </dl>
@@ -28,7 +28,7 @@ You can abandon any Piggy using this command and it will be released from your f
 <dt><code><b>/abandon <i>[piggy-id]</i></b></code>
 <dd>Abandon any Piggy owned by you.
 <ul style="list-style-type: none;">
-<li><code>piggy-id</code><br>
-Enter the Piggy ID of the Piggy you want to rename. The Piggy ID are the digits after the <b>#</b> in your Piggy's name. You can check this using <code>/farm</code> or on your Dashboard.
+<li><code>piggy-id</code><font style="color:#FF0000">*</font><br>
+Enter the Piggy ID of the Piggy you want to abandon. The Piggy ID are the digits after the <b>#</b> in your Piggy's name.
 </ul>
 </dl>

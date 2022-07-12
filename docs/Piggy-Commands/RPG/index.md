@@ -47,11 +47,11 @@ Use this command to gift a supported currency another user.
 <dt><code><b>/gift <i>[user-identifier] [item] [quantity]</i></b></code>
 <dd>Gift Essence or Silver Coins to a specific user. You are given 3 options with this command as follows:
 <ul style="list-style-type: none;">
-<li><code>user-identifier</code><br>
+<li><code>user-identifier</code><font style="color:#FF0000">*</font><br>
 Input the receiver's username or Discord ID in this field.
-<li><code>item</code><br>
+<li><code>item</code><font style="color:#FF0000">*</font><br>
 Select the item you want to gift from either Essence or Silver Coins.
-<li><code>quanity</code><br>
+<li><code>quanity</code><font style="color:#FF0000">*</font><br>
 Input the amount of the specified item that you want to gift.
 </ul>
 </dl>

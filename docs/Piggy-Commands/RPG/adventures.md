@@ -13,8 +13,8 @@ Adventures are basically missions that you can send your Piggy on for a set amou
 <dt><code><b>/adventure set-piggy <i>[piggy-id]</i></b></code>
 <dd>Set your default adventure Piggy. You are given 1 option with this command as follows:
 <ul style="list-style-type: none;">
-<li><code>piggy-id</code><br>
-Enter the Piggy ID of the Piggy you want to rename. The Piggy ID are the digits after the <b>#</b> in your Piggy's name. You can check this using <code>/farm</code> or on your Dashboard.
+<li><code>piggy-id</code><font style="color:#FF0000">*</font><br>
+Enter the Piggy ID of the Piggy you want to set as the default adventure Piggy. The Piggy ID are the digits after the <b>#</b> in your Piggy's name.
 </ul>
 <dt><code><b>/adventure reset-piggy</b></code>
 <dd>Reset your current default adventure Piggy.
