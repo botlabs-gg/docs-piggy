@@ -19,13 +19,13 @@
 ### RPG
 
 * [Basic](Piggy-Commands/RPG/index.md)
-* [Adopt](Piggy-Commands/RPG/adoption.md)
-* [Adventure](Piggy-Commands/RPG/adventures.md)
-* [Battle](Piggy-Commands/RPG/battling.md)
+* [Adoption](Piggy-Commands/RPG/adoption.md)
+* [Adventures](Piggy-Commands/RPG/adventures.md)
+* [Battling](Piggy-Commands/RPG/battling.md)
 * [Farm](Piggy-Commands/RPG/farm.md)
-* [Mine](Piggy-Commands/RPG/mining.md)
+* [Mining](Piggy-Commands/RPG/mining.md)
 * [Raiding](Piggy-Commands/RPG/raiding.md)
-* [Strategy](Piggy-Commands/RPG/strategize.md)
+* [Strategize](Piggy-Commands/RPG/strategize.md)
 
 ### Leveling
 
