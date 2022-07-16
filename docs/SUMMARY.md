@@ -23,6 +23,7 @@
 * [Adventures](Piggy-Commands/RPG/adventures.md)
 * [Battling](Piggy-Commands/RPG/battling.md)
 * [Chests](Piggy-Commands/RPG/chests.md)
+* [Daily Checklist](Piggy-Commands/RPG/daily-checklist.md)
 * [Farm](Piggy-Commands/RPG/farm.md)
 * [Mining](Piggy-Commands/RPG/mining.md)
 * [Raiding](Piggy-Commands/RPG/raiding.md)
@@ -40,7 +41,6 @@
 ### Miscellaneous
 
 * [Details](Piggy-Commands/miscellaneous/details.md)
-* [Daily Checklist](Piggy-Commands/miscellaneous/daily-checklist.md)
 * [Trivia](Piggy-Commands/miscellaneous/trivia.md)
 * [Leaderboard](Piggy-Commands/miscellaneous/leaderboard.md)
 * [Emoji](Piggy-Commands/miscellaneous/emoji.md)
