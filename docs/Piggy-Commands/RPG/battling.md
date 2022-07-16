@@ -2,7 +2,7 @@
 These are the commands related to the Battle feature of Piggy RPG.
 
 ## battle
-Your Piggy can have a battle with other Piggies. The Piggy with the highest score wins the battle. You can either battle a specific player, a random player from your server, a random player from any server Piggy is in or an NPC. Battling is coming soon on the Dashboard.
+Your Piggy can have a battle with other Piggies. The Piggy with the highest score wins the battle. You can either battle a specific player, a random player from your server, a random player from any server Piggy is in or an NPC. Players are limited to 200 User Battles, 75 Server Battles and 200 Passive Battles per 24hrs, after which they need to purchase Battle Pass to continue battling. Battling is coming soon on the Dashboard.
 <dl>
 <dt><code><b>/battle global</b></code>
 <dd>Battle a random player globally.
@@ -16,6 +16,9 @@ Specify the player who you want to battle.
 </ul>
 <dt><code><b>/battle stats</b></code>
 <dd>View detailed stats of your recent battles.
+<dt><code><b>/battle status</b></code>
+<dd>Get detailed information about the number of battles completed today.<br>
+<img src='/images/battle_status.png'width=512px>
 <dt><code><b>/battle set-piggy</b></code>
 <dd>Set your default battle Piggy.
 <ul style="list-style-type: none;">
