@@ -22,6 +22,7 @@
 * [Adoption](Piggy-Commands/RPG/adoption.md)
 * [Adventures](Piggy-Commands/RPG/adventures.md)
 * [Battling](Piggy-Commands/RPG/battling.md)
+* [Chests](Piggy-Commands/RPG/chests.md)
 * [Farm](Piggy-Commands/RPG/farm.md)
 * [Mining](Piggy-Commands/RPG/mining.md)
 * [Raiding](Piggy-Commands/RPG/raiding.md)
@@ -38,7 +39,6 @@
 
 ### Miscellaneous
 
-* [Chests](Piggy-Commands/miscellaneous/chests.md)
 * [Details](Piggy-Commands/miscellaneous/details.md)
 * [Daily Checklist](Piggy-Commands/miscellaneous/daily-checklist.md)
 * [Trivia](Piggy-Commands/miscellaneous/trivia.md)
