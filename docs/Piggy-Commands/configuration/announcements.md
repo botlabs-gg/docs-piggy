@@ -1,5 +1,5 @@
 # Announcements
-These are the commands related to the announcements feature of Piggy.
+These are the commands related to the announcements feature of Piggy RPG.
 
 ## subscribe
 Piggy sends out announcements regarding its updates and surprise chest drops which mentions the <b>@piggyusers</b> role by default. You can also change the announcements channel for Piggy and the role to mention in the announcements through the <a href="(\https://piggy.gg/dashboard/">Dashboard</a>.<br>
