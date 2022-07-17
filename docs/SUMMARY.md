@@ -11,8 +11,8 @@
 
 ### Configuration
 
-* [Announcement](Piggy-Commands/configuration/announcement.md)
-* [Commands](Piggy-Commands/configuration/commands.md)
+* [Announcements](Piggy-Commands/configuration/announcements.md)
+* [Channels](Piggy-Commands/configuration/channels.md)
 * [Language](Piggy-Commands/configuration/language.md)
 * [Mute Roles](Piggy-Commands/configuration/mute-role.md)
 
