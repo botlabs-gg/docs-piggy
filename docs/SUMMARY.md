@@ -15,7 +15,6 @@
 * [Channels](Piggy-Commands/configuration/channels.md)
 * [Language](Piggy-Commands/configuration/language.md)
 * [Moderation](Piggy-Commands/configuration/moderation.md)
-* [Mute Roles](Piggy-Commands/configuration/mute-role.md)
 * [User Config](Piggy-Commands/configuration/user-config.md)
 
 ### RPG

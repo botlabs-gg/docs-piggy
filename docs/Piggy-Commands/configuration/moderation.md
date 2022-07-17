@@ -47,7 +47,8 @@ Enter the username of the member you want to unban.
 </dl>
 
 ## mute
-Muting a server member would make them unable to send messages but they would still be a part of the server and would be able to view all messages. If you do not already have a Mute role then this command can create one for you.
+Muting a server member would make them unable to send messages but they would still be a part of the server and would be able to view all messages. If you do not already have a Mute role then this command can create one for you. You can also choose the role to assign users that Piggy mutes through the <a href="https://piggy.gg/dashboard/">Dashboard</a>.<br>
+<img src="/images/muterole.png">
 <dl>
 <dt><code><b>/mute <i>[user-id] [username] [create-role]</i></b></code>
 <dd>Mute server members.
