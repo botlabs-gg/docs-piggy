@@ -13,7 +13,7 @@
     
     
       
-        <title>Raid - Piggy Bot Documentation</title>
+        <title>Raiding - Piggy Bot Documentation</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#raid" class="md-skip">
+        <a href="#raiding" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Raid
+              Raiding
             
           </span>
         </div>
@@ -490,7 +490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../adventure/" class="md-nav__link">
+      <a href="../adventures/" class="md-nav__link">
         Adventures
       </a>
     </li>
@@ -505,7 +505,7 @@
   
     <li class="md-nav__item">
       <a href="../battling/" class="md-nav__link">
-        Battle
+        Battling
       </a>
     </li>
   
@@ -518,8 +518,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../breeding/" class="md-nav__link">
-        Breeding
+      <a href="../chests/" class="md-nav__link">
+        Chests
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../daily-checklist/" class="md-nav__link">
+        Daily Checklist
       </a>
     </li>
   
@@ -546,22 +560,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../marketplace/" class="md-nav__link">
-        Marketplace
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../mine/" class="md-nav__link">
-        Mine
+      <a href="../mining/" class="md-nav__link">
+        Mining
       </a>
     </li>
   
@@ -583,9 +583,40 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Raiding
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-        Raid
+        Raiding
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#raid" class="md-nav__link">
+    raid
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -598,8 +629,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategy/" class="md-nav__link">
-        Strategy
+      <a href="../strategize/" class="md-nav__link">
+        Strategize
       </a>
     </li>
   
@@ -645,8 +676,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/announcement/" class="md-nav__link">
-        Announcement
+      <a href="../../configuration/announcements/" class="md-nav__link">
+        Announcements
       </a>
     </li>
   
@@ -659,8 +690,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/commands/" class="md-nav__link">
-        Commands
+      <a href="../../configuration/channels/" class="md-nav__link">
+        Channels
       </a>
     </li>
   
@@ -701,8 +732,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/mute-role/" class="md-nav__link">
-        Mute Role
+      <a href="../../configuration/user-config/" class="md-nav__link">
+        User Config
       </a>
     </li>
   
@@ -858,34 +889,6 @@
           Miscellaneous
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../miscellaneous/chests/" class="md-nav__link">
-        Chests
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../miscellaneous/daily-checklist/" class="md-nav__link">
-        Daily Checklist
-      </a>
-    </li>
-  
-
-            
           
             
               
@@ -1169,19 +1172,28 @@
                 
 
 
-<h1 id="raid">Raid</h1>
-<p><strong><code>/raid status</code></strong></p>
-<p>Check the status of current active raid in your server</p>
-<p><strong><code>/raid start</code></strong></p>
-<p>Start a raid party which can be joined in by others to fight against the monster</p>
-<p><strong><code>/raid join</code></strong></p>
-<p>Join a raid party already started by somebody else in the server</p>
-<p><strong><code>/raid leave</code></strong></p>
-<p>Leave the active raid party in your server</p>
-<p><strong><code>/raid set-piggy</code></strong></p>
-<p>Set your default raid piggy</p>
-<p><strong><code>/raid reset-piggy</code></strong></p>
-<p>Reset your current default raid-piggy</p>
+<h1 id="raiding">Raiding</h1>
+<p>These are the commands related to the Raiding feature of Piggy RPG.</p>
+<h2 id="raid">raid</h2>
+<p>You can make a group of 5 players and fight a boss battle together in Raids. You can either win or lose depending on your team's score in comparison to the monster Piggy's score. Each party member gets a unique reward upon successful completion of a raid.</p>
+<dl>
+<dt><code><b>/raid status</b></code>
+<dd>Check the status of current active raid in your server.
+<dt><code><b>/raid start</b></code>
+<dd>Start a raid party which can be joined in by others to fight against the monster.
+<dt><code><b>/raid join</b></code>
+<dd>Join a raid party already started by somebody else in the server.
+<dt><code><b>/raid leave</b></code>
+<dd>Leave the active raid party in your server.
+<dt><code><b>/raid set-piggy <i>[piggy-id]</i></b></code>
+<dd>Set your default raid Piggy.
+<ul style="list-style-type: none;">
+<li><code>piggy-id</code><font style="color:#FF0000">*</font><br>
+Enter the Piggy ID of the Piggy you want to set as the default raid Piggy. The Piggy ID are the digits after the <b>#</b> in your Piggy's name.
+</ul>
+<dt><code><b>/raid reset-piggy</b></code>
+<dd>Reset your current default raid Piggy.
+</dl>
 
               
             </article>
@@ -1200,7 +1212,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../mine/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Mine" rel="prev">
+        <a href="../mining/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Mining" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1209,20 +1221,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Mine
+              Mining
             </div>
           </div>
         </a>
       
       
         
-        <a href="../strategy/" class="md-footer__link md-footer__link--next" aria-label="Next: Strategy" rel="next">
+        <a href="../strategize/" class="md-footer__link md-footer__link--next" aria-label="Next: Strategize" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Strategy
+              Strategize
             </div>
           </div>
           <div class="md-footer__button md-icon">

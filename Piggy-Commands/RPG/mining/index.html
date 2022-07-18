@@ -13,7 +13,7 @@
     
     
       
-        <title>Marketplace - Piggy Bot Documentation</title>
+        <title>Mining - Piggy Bot Documentation</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#marketplace" class="md-skip">
+        <a href="#mining" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Marketplace
+              Mining
             
           </span>
         </div>
@@ -490,7 +490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../adventure/" class="md-nav__link">
+      <a href="../adventures/" class="md-nav__link">
         Adventures
       </a>
     </li>
@@ -505,7 +505,7 @@
   
     <li class="md-nav__item">
       <a href="../battling/" class="md-nav__link">
-        Battle
+        Battling
       </a>
     </li>
   
@@ -518,8 +518,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../breeding/" class="md-nav__link">
-        Breeding
+      <a href="../chests/" class="md-nav__link">
+        Chests
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../daily-checklist/" class="md-nav__link">
+        Daily Checklist
       </a>
     </li>
   
@@ -555,9 +569,40 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Mining
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-        Marketplace
+        Mining
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mine" class="md-nav__link">
+    mine
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -570,22 +615,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../mine/" class="md-nav__link">
-        Mine
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../raiding/" class="md-nav__link">
-        Raid
+        Raiding
       </a>
     </li>
   
@@ -598,8 +629,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategy/" class="md-nav__link">
-        Strategy
+      <a href="../strategize/" class="md-nav__link">
+        Strategize
       </a>
     </li>
   
@@ -645,8 +676,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/announcement/" class="md-nav__link">
-        Announcement
+      <a href="../../configuration/announcements/" class="md-nav__link">
+        Announcements
       </a>
     </li>
   
@@ -659,8 +690,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/commands/" class="md-nav__link">
-        Commands
+      <a href="../../configuration/channels/" class="md-nav__link">
+        Channels
       </a>
     </li>
   
@@ -701,8 +732,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../configuration/mute-role/" class="md-nav__link">
-        Mute Role
+      <a href="../../configuration/user-config/" class="md-nav__link">
+        User Config
       </a>
     </li>
   
@@ -858,34 +889,6 @@
           Miscellaneous
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../miscellaneous/chests/" class="md-nav__link">
-        Chests
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../miscellaneous/daily-checklist/" class="md-nav__link">
-        Daily Checklist
-      </a>
-    </li>
-  
-
-            
           
             
               
@@ -1169,9 +1172,28 @@
                 
 
 
-<h1 id="marketplace">Marketplace</h1>
-<p><strong><code>/marketplace</code></strong></p>
-<p>Buy strong and healthy piggies to quickly rise up the rank</p>
+<h1 id="mining">Mining</h1>
+<p>These are the commands related to the Mining feature of Piggy RPG.</p>
+<h2 id="mine">mine</h2>
+<p>Mining is one of the ways to earn Gold Coins in the game. When you send your Piggy to mine, it will return in an exact amount of time with the loot. If this loot is not claimed within the set time period, it will expire. You can only send one Piggy at a time to mine.</p>
+<dl>
+<dt><code><b>/mine usage</b></code>
+<dd>Get info about the usage of mine command.
+<dt><code><b>/mine start</b></code>
+<dd>Start mining coins.
+<dt><code><b>/mine end</b></code>
+<dd>End your active mining.
+<dt><code><b>/mine claim</b></code>
+<dd>Collect your mined coins.
+<dt><code><b>/mine set-piggy <i>[piggy-id]</i></b></code>
+<dd>Set your default mine Piggy.
+<ul style="list-style-type: none;">
+<li><code>piggy-id</code><font style="color:#FF0000">*</font><br>
+Enter the Piggy ID of the Piggy you want to set as the default mine Piggy. The Piggy ID are the digits after the <b>#</b> in your Piggy's name.
+</ul>
+<dt><code><b>/mine reset-piggy</b></code>
+<dd>Reset your current default mine piggy.
+</dl>
 
               
             </article>
@@ -1206,13 +1228,13 @@
       
       
         
-        <a href="../mine/" class="md-footer__link md-footer__link--next" aria-label="Next: Mine" rel="next">
+        <a href="../raiding/" class="md-footer__link md-footer__link--next" aria-label="Next: Raiding" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Mine
+              Raiding
             </div>
           </div>
           <div class="md-footer__button md-icon">
