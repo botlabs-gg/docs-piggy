@@ -13,7 +13,7 @@
     
     
       
-        <title>Adopt - Piggy Bot Documentation</title>
+        <title>Adoption - Piggy Bot Documentation</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#adopt" class="md-skip">
+        <a href="#adoption" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Adopt
+              Adoption
             
           </span>
         </div>
@@ -240,6 +240,22 @@
     <li class="md-tabs__item">
       <a href="../../../Piggy-Infinity/" class="md-tabs__link">
         Piggy Infinity
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Release-Notes/" class="md-tabs__link">
+        Release Notes
       </a>
     </li>
   
@@ -469,9 +485,54 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Adoption
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-        Adopt
+        Adoption
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#adopt" class="md-nav__link">
+    adopt
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#name" class="md-nav__link">
+    name
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abandon" class="md-nav__link">
+    abandon
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -485,7 +546,7 @@
   
     <li class="md-nav__item">
       <a href="../adventure/" class="md-nav__link">
-        Adventure
+        Adventures
       </a>
     </li>
   
@@ -1091,6 +1152,54 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Release Notes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Release Notes" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Release Notes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Release-Notes/" class="md-nav__link">
+        Release Notes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -1105,13 +1214,38 @@
                 
 
 
-<h1 id="adopt">Adopt</h1>
-<p><strong><code>/adopt</code></strong></p>
-<p>Adopt your piggy and customize it</p>
-<p><strong><code>/name</code></strong></p>
-<p>Rename your Piggy</p>
-<p><strong><code>/abandon</code></strong></p>
-<p>Abandon your Piggy</p>
+<h1 id="adoption">Adoption</h1>
+<p>These are the commands related to adoption of Piggy.</p>
+<h2 id="adopt">adopt</h2>
+<p>Adopt a Piggy from a random clan. You can only have maximum of <b>two</b> adopted Piggies in your Farm at any given point of time. Adoption is also available through the <a href="https://piggy.gg/my-piggy/piggy-farm/my-piggy">Dashboard</a>.</p>
+<dl>
+<dt><code><b>/adopt</b></code>
+<dd>Adopt a Piggy.
+</dl>
+
+<h2 id="name">name</h2>
+<p>You can name or rename any Piggy in your Farm using this command. Naming your Piggy will give it a unique identity and will make it easier to be remembered.</p>
+<dl>
+<dt><code><b>/name <i>[piggy-id] [piggy-name]</i></b></code>
+<dd>Use the name command to rename your Piggy. You are given 2 options with this command as follows:
+<ul style="list-style-type: none;">
+<li><code>piggy-id</code><br>
+Enter the Piggy ID of the Piggy you want to rename. The Piggy ID are the digits after the <b>#</b> in your Piggy's name. You can check this using <code>/farm</code> or on your Dashboard.
+<li><code>piggy-name</code><br>
+Enter the name you want to give your Piggy.
+</ul>
+</dl>
+
+<h2 id="abandon">abandon</h2>
+<p>You can abandon any Piggy using this command and it will be released from your farm. Your abandoned Piggy will be lost and can never be reclaimed again. Use this command wisely. Abandoning an adopted Piggy will free up the adoption slot and you can use the <code>/adopt</code> command to adopt another Piggy. Abandoning a Piggy costs 20 <abbr title="Gold Coins">GC</abbr>.</p>
+<dl>
+<dt><code><b>/abandon <i>[piggy-id]</i></b></code>
+<dd>Abandon any Piggy owned by you.
+<ul style="list-style-type: none;">
+<li><code>piggy-id</code><br>
+Enter the Piggy ID of the Piggy you want to rename. The Piggy ID are the digits after the <b>#</b> in your Piggy's name. You can check this using <code>/farm</code> or on your Dashboard.
+</ul>
+</dl>
 
               
             </article>
@@ -1146,13 +1280,13 @@
       
       
         
-        <a href="../adventure/" class="md-footer__link md-footer__link--next" aria-label="Next: Adventure" rel="next">
+        <a href="../adventure/" class="md-footer__link md-footer__link--next" aria-label="Next: Adventures" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Adventure
+              Adventures
             </div>
           </div>
           <div class="md-footer__button md-icon">
