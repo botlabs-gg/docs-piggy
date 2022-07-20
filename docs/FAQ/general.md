@@ -34,14 +34,6 @@ Make sure the roles you want Piggy to assign are below the highest role the bot 
 </ul>
 If a role has any of these permissions or they are above the highest role the bot has, it won't show in the dashboard.
 
-## Why don't my commands work in DMs?
-If Piggy doesn't respond to you in DMs, then the issue is one of the following:<br>
-<ul>
-<li>You're using the wrong prefix. Check the correct prefix by mentioning Piggy. It is usually the prefix of your home server.
-<li>You've DMs disabled from the server which Piggy is part of.
-<li>Kindly use piggy in server as much as you can, as DM usage is being removed.
-</ul>
-
 ## How do I learn about Piggy Commands and it's working?
 We have videos on <a href="https://www.youtube.com/c/PiggyBot/featured">YouTube</a> and you can also go through the below links:<br>
 <ul style="list-style-type: none;">
