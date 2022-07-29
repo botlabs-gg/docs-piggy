@@ -40,7 +40,7 @@ Use these commands to set your preferred country to be shown in your rank card.
 <dt><code><b>/country set <i>[code-name]</i></b></code>
 <dd>Set your preferred country by name or country code.
 <ul style="list-style-type: none;">
-<li><code>code-name</code><br><font style="color:#FF0000">*</font><br>
+<li><code>code-name</code><font style="color:#FF0000">*</font><br>
 Enter the country code or enter the country name. Example: <code>FR</code> or <code>France</code>
 </ul>
 <dt><code><b>/country reset</b></code>
