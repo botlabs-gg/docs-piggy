@@ -1,5 +1,26 @@
 # Release Notes
 
+## 3.12.0.0
+
+### Features
+<ol>
+<li>All the Exclusive Buffs are now unlocked! Use <code><b>/​​​​​​​​​​buff-view</b></code> or visit <a href="https://piggy.gg/my-piggy/buff-mart">Buff Mart</a> to view the buffs now!
+<li>There is no limit on the number of Raids you can do per day. After the limit has been reached, the player will receive reduced XP and rewards.
+<li>The Piggies will have names when they are adopted or bred. You can always rename them using <code><b>/name</b></code> command.
+<li>Revamp of the trivia command. Go play trivia using <code><b>trivia</b></code>!
+</ol>
+
+### Bug Fixes and Enhancements
+<ol>
+<li>Bug in VS battle has been fixed where the battle fee was deducted from the opponent instead of the player.
+<li>Fix in sticky level feature where player was not able to gain XP after leaving and joining back the server in certain conditions.
+<li>Unnecessary information removed from <code><b>/leaderboard player</code></b> command.
+<li>Leaderboards in the dashboard for battle and adventure will only show global stats.
+<li>When a user adopts Piggy for the first time, the tutorial will start automatically.
+<li>Disclaimers added for abandoned piggies in the dashboard.
+</ol>
+<i>Reach us for any feedback or support on our official discord support server <a href="https://piggy.gg/contact-us">here</a>.</i>
+
 ## 3.11.0.0
 
 ### Features
