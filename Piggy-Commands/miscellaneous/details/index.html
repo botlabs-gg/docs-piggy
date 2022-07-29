@@ -737,7 +737,7 @@
   
     <li class="md-nav__item">
       <a href="../../leveling/announcement-configuration/" class="md-nav__link">
-        Announcement configuration
+        Announcement Configuration
       </a>
     </li>
   
@@ -794,6 +794,20 @@
     <li class="md-nav__item">
       <a href="../../leveling/messaging/" class="md-nav__link">
         Messaging
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../leveling/rank-card/" class="md-nav__link">
+        Rank Card
       </a>
     </li>
   
@@ -864,9 +878,68 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Details
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Details
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#logs" class="md-nav__link">
+    logs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oink" class="md-nav__link">
+    oink
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dm" class="md-nav__link">
+    dm
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#piggybank" class="md-nav__link">
+    piggybank
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#snort" class="md-nav__link">
+    snort
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -893,8 +966,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../leaderboard/" class="md-nav__link">
-        Leaderboard
+      <a href="../leaderboards/" class="md-nav__link">
+        Leaderboards
       </a>
     </li>
   
@@ -922,7 +995,7 @@
   
     <li class="md-nav__item">
       <a href="../voting/" class="md-nav__link">
-        Vote
+        Voting
       </a>
     </li>
   
@@ -1142,16 +1215,56 @@
 
 
 <h1 id="details">Details</h1>
-<p><strong><code>/info</code></strong></p>
-<p>Get information about your level and rank</p>
-<p><strong><code>/logs</code></strong></p>
-<p>View your coin transaction history</p>
-<p><strong><code>/oink</code></strong></p>
-<p>Get to know about Piggy facts</p>
-<p><strong><code>/piggybank OR /snort</code></strong></p>
-<p>Check your loot balance</p>
-<p><strong><code>/dm</code></strong></p>
-<p>Toggle DM notifications.</p>
+<p>These are the commands related to the checking certain Details in Piggy.</p>
+<h2 id="logs">logs</h2>
+<p>Use this to check the logs of your transactions within Piggy. This will help you keep track of where your currencies are being spent and where they are being earned.</p>
+<dl>
+<dt><code><b>/logs</b></code>
+<dd>View your coin transaction history</dl>
+
+<h2 id="oink">oink</h2>
+<p>Use this command to get to know about the Piggy lore and other interesting facts about the Piggy and the Piggyverse. Sending this command without any options will give you an overview of which DM notifications you have turned on or off.</p>
+<dl>
+<dt><code><b>/oink</b></code>
+<dd>Get to know about Piggy facts.
+</dl>
+
+<h2 id="dm">dm</h2>
+<p>This command will help you toggle notifications in DMs for various different events in Piggy.</p>
+<dl>
+<dt><code><b>/dm <i>[options]</i></b></code>
+<dd>Toggle DM notifications. This command has 13 options to choose from as follows:
+<ul style="list-style-type: none;">
+<li><code>options</code><br>
+all
+<li>adventure
+<li>battle
+<li>trade
+<li>shield
+<li>transaction
+<li>game
+<li>raid
+<li>breed
+<li>heal
+<li>marketplace
+<li>season
+<li>moderation
+</ul>
+</dl>
+
+<h2 id="piggybank">piggybank</h2>
+<p>Using this command you can check your balance in the 3 different currencies - Gold Coins, Silver Coins and Essence.</p>
+<dl>
+<dt><code><b>/piggybank</b></code>
+<dd>Check your loot balance.
+</dl>
+
+<h2 id="snort">snort</h2>
+<p>This is an alias for the <code>/piggybank</code> command.</p>
+<dl>
+<dt><code><b>/snort</b></code>
+<dd>Check your loot balance.
+</dl>
 
               
             </article>
