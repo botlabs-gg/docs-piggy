@@ -13,7 +13,7 @@ Specify the player whose information you want to see.
 </dl>
 
 ## rank
-This is an alias to <code>/level</code> command.
+This is an alias for the <code>/level</code> command.
 <dl>
 <dt><code><b>/rank <i>[player]</i></b></code>
 <dd>Get information about your level and rank.
@@ -24,7 +24,7 @@ Specify the player whose information you want to see.
 </dl>
 
 ## info
-This is an alias to <code>/level</code> command.
+This is an alias for the <code>/level</code> command.
 <dl>
 <dt><code><b>/info <i>[player]</i></b></code>
 <dd>Get information about your level and rank.
