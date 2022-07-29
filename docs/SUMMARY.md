@@ -43,8 +43,7 @@
 ### Miscellaneous
 
 * [Details](Piggy-Commands/miscellaneous/details.md)
-* [Trivia](Piggy-Commands/miscellaneous/trivia.md)
-* [Leaderboard](Piggy-Commands/miscellaneous/leaderboard.md)
+* [Leaderboards](Piggy-Commands/miscellaneous/leaderboards.md)
 * [Emoji](Piggy-Commands/miscellaneous/emoji.md)
 * [Trivia](Piggy-Commands/miscellaneous/trivia.md)
 * [Voting](Piggy-Commands/miscellaneous/voting.md)
