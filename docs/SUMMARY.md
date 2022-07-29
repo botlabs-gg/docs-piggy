@@ -32,6 +32,7 @@
 
 ### Leveling
 
+* [Rank Card](Piggy-Commands/leveling/rank-card.md)
 * [Announcement Configuration](Piggy-Commands/leveling/announcement-configuration.md)
 * [Auto Roles](Piggy-Commands/leveling/auto-roles.md)
 * [Import Leveling](Piggy-Commands/leveling/import-leveling.md)
