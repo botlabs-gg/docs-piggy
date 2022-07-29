@@ -7,7 +7,7 @@
 <li>All the Exclusive Buffs are now unlocked! Use <code><b>/​​​​​​​​​​buff-view</b></code> or visit <a href="https://piggy.gg/my-piggy/buff-mart">Buff Mart</a> to view the buffs now!
 <li>There is no limit on the number of Raids you can do per day. After the limit has been reached, the player will receive reduced XP and rewards.
 <li>The Piggies will have names when they are adopted or bred. You can always rename them using <code><b>/name</b></code> command.
-<li>Revamp of the trivia command. Go play trivia using <code><b>trivia</b></code>!
+<li>Revamp of the trivia command. Go play trivia using <code><b>/trivia</b></code>!
 </ol>
 
 ### Bug Fixes and Enhancements
