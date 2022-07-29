@@ -9,7 +9,7 @@ These commands will help you add or remove Piggy's emojis to your server. Piggy 
 <dt><code><b>/emoji add-one<i>[emoji-name]</i></b></code>
 <dd>Add a specific emoji of your choice to the server.
 <ul style="list-style-type: none;">
-<li><code>emoji-name</code><br><font style="color:#FF0000">*</font><br>
+<li><code>emoji-name</code><font style="color:#FF0000">*</font><br>
 Enter name of the emoji on which you want to perform this action.
 </ul>
 <dt><code><b>/emoji add-all</b></code>
