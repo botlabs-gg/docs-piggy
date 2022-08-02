@@ -1,5 +1,5 @@
 # Home
-Official Piggy Docs, Updated May 2022
+Official Piggy Docs, Updated August 2022
 
 ##  Welcome to Piggy Infinity
 <!-- ![PiggyInfinity](/images/piggyinfinity.png) -->
